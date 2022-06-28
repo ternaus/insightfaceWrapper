@@ -28,7 +28,7 @@ jobs:
       - name: Run flake8
         run: flake8
       - name: Run pylint
-        run: pylint yolo5face
+        run: pylint insightfacewrapper
       - name: Run isort
         run: isort --profile black insightfacewrapper
       - name: Run Mypy
