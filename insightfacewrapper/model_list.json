@@ -1,0 +1,10 @@
+{
+    "ms1mv3_arcface_r18": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/ms1mv3_arcface_r18.jit",
+    "ms1mv3_arcface_r34": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/ms1mv3_arcface_r34.jit",
+    "ms1mv3_arcface_r50": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/ms1mv3_arcface_r50.jit",
+    "ms1mv3_arcface_r100": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/ms1mv3_arcface_r100.jit",
+    "glint360k_cosface_r18": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/glint360k_cosface_r18.jit",
+    "glint360k_cosface_r34": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/glint360k_cosface_r34.jit",
+    "glint360k_cosface_r50": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/glint360k_cosface_r50.jit",
+    "glint360k_cosface_r100": "https://github.com/ternaus/insightfaceWrapper/releases/download/v0.0.3/glint360k_cosface_r100.jit"
+}
