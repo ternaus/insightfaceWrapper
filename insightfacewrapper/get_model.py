@@ -6,7 +6,7 @@ import torch.jit
 from torch import nn
 from torch.hub import download_url_to_file
 
-with open(Path(__file__).parent / "model_list.json") as f:
+with open(Path(__file__).parent / "model_list.json", encoding="UTF-8") as f:
     models = json.load(f)
 
 
