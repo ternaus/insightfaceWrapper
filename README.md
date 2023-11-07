@@ -39,7 +39,7 @@ def normalize(image: np.ndarray) -> np.ndarray:
 
 def image2input(image: np.ndarray) -> np.ndarray:
     transposed = np.transpose(image, (2, 0, 1)).astype(np.float32)
-    return normalize(np.expand_dims(np.ascontiguousarray(transposed), 0))
+    return torch.from_numpy(normalize(np.expand_dims(np.ascontiguousarray(transposed), 0)))
 
 torch_input = image2input(image)
 
